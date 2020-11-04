@@ -1,6 +1,6 @@
 @Message
 Feature:
-  As a  user
+  As a user
   I want to test LinkedIn Message functionality
 
 
