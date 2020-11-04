@@ -6,11 +6,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class LoginPageObjects {
+    public static By userName =By.xpath("//*[@id='session_key']");
     private static WebElement element = null;
     WaitHelper waitHelper;
 
     public static WebElement userName(WebDriver driver) {
-        element = driver.findElement(By.xpath("//*[@id='session_key']"));
+        element = driver.findElement(userName);
         return element;
     }
     public static WebElement password(WebDriver driver) {

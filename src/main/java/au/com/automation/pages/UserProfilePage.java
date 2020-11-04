@@ -1,5 +1,6 @@
 package au.com.automation.pages;
 
+import au.com.automation.pageObjects.HomePageObjects;
 import au.com.automation.pageObjects.UserProfilePageObjects;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -17,15 +18,14 @@ public class UserProfilePage extends TestBase{
     }
     public static void sendMessage(String textMessage) throws InterruptedException {
         // Enter the user details
-        Thread.sleep(4000);
-        //wait.until(ExpectedConditions.visibilityOf(UserProfilePageObjects.messageButton(driver)));
+        WaitForElement(UserProfilePageObjects.messageButton,8);
         UserProfilePageObjects.messageButton(driver).click();
         //wait.until(ExpectedConditions.visibilityOf(UserProfilePageObjects.enterMessage(driver)));
         UserProfilePageObjects.enterMessage(driver).sendKeys(textMessage);
-        Thread.sleep(2000);
+        WaitForElementClicable(UserProfilePageObjects.sendButton,10);
         UserProfilePageObjects.sendButton(driver).click();
         //wait.until(ExpectedConditions.visibilityOf(UserProfilePageObjects.crossMessageBox(driver)));
-        Thread.sleep(4000);
+        WaitForElement(UserProfilePageObjects.crossMessageBox,4);
         UserProfilePageObjects.crossMessageBox(driver).click();
 
     }

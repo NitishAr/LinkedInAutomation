@@ -6,15 +6,17 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class HomePageObjects {
+
     private static WebElement element = null;
-    WaitHelper waitHelper;
+    public static By searchBox = By.xpath("//*[@id='ember16']/input");
+    public static By SearchResult =By.xpath("//*[@class='name actor-name']");
 
     public static WebElement searchBox(WebDriver driver) {
-        element = driver.findElement(By.xpath("//*[@id='ember16']/input"));
+        element = driver.findElement(searchBox);
         return element;
     }
     public static WebElement SearchResult(WebDriver driver) {
-        element = driver.findElement(By.xpath("//*[@class='name actor-name']"));
+        element = driver.findElement(SearchResult);
         return element;
     }
     public static WebElement buttonMessage(WebDriver driver){

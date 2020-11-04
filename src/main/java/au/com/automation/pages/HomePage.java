@@ -1,5 +1,6 @@
 package au.com.automation.pages;
 
+import au.com.automation.pageObjects.CommonPageObjects;
 import au.com.automation.pageObjects.HomePageObjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -9,7 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage extends TestBase {
-    static WebDriverWait wait = new WebDriverWait(driver,8);
+   // static WebDriverWait wait = new WebDriverWait(driver,8);
     public static Actions action = new Actions(driver);
     public HomePage(WebDriver driver) {
         super(driver);
@@ -17,8 +18,7 @@ public class HomePage extends TestBase {
     }
     public static void seacrhUserProfile(String userProfileName) throws InterruptedException {
         // Enter the user details
-        Thread.sleep(4000);
-//        waitHelper.WaitForElement( HomePageObjects.searchBox(driver),8);
+        WaitForElement(HomePageObjects.searchBox,10);
         HomePageObjects.searchBox(driver).sendKeys(userProfileName);
         action.sendKeys(Keys.ENTER).build().perform();
 
@@ -26,8 +26,7 @@ public class HomePage extends TestBase {
     }
     public static void clickUserProfile() throws InterruptedException {
         // Enter the user details
-        Thread.sleep(4000);
-        //waitHelper.WaitForElement( HomePageObjects.SearchResult(driver),8);
+        WaitForElement(HomePageObjects.SearchResult,2000);
         HomePageObjects.SearchResult(driver).click();
 
     }

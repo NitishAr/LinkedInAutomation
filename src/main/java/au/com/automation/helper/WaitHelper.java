@@ -23,6 +23,7 @@ public class WaitHelper {
 	
 	public void WaitForElement(WebElement element,long timeOutInSeconds){
 		logger.info("waiting for element visibilityOf..");
+		System.out.println("we are inside");
 		WebDriverWait wait = new WebDriverWait(driver, timeOutInSeconds);
 		wait.until(ExpectedConditions.visibilityOf(element));
 		logger.info("element is visible..");

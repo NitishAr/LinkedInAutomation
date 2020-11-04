@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/com.LinkedIn/AutomationTask.iml" filepath="$PROJECT_DIR$/com.LinkedIn/AutomationTask.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/Nitish.iml" filepath="$PROJECT_DIR$/.idea/Nitish.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AutomationTask.iml" filepath="$PROJECT_DIR$/AutomationTask.iml" />
     </modules>
   </component>
 </project>

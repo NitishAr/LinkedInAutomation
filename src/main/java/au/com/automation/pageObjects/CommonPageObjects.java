@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class CommonPageObjects {
+    public static By signOut= By.xpath("//*[text()='Sign Out']");
     private static WebElement element = null;
     WaitHelper waitHelper;
 
@@ -14,7 +15,7 @@ public class CommonPageObjects {
         return element;
     }
     public static WebElement signOut(WebDriver driver) {
-        element = driver.findElement(By.xpath("//*[text()='Sign Out']"));
+        element = driver.findElement(signOut);
         return element;
     }
 }

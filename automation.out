@@ -1,5 +1,19 @@
-2020-11-04 11:11:417 INFO  ServiceHooks:24 - capturing maven properties
-2020-11-04 11:11:425 INFO  ServiceHooks:29 - browser passed through maven null
-2020-11-04 11:11:425 INFO  ServiceHooks:36 - capturing propertites
-2020-11-04 11:11:425 INFO  ServiceHooks:41 - browser passed through Jenkins null
-2020-11-04 11:11:980 INFO  ServiceHooks:61 - Sending message to one person in LinkedIn is Failed
+2020-11-04 16:11:462 INFO  ServiceHooks:24 - capturing maven properties
+2020-11-04 16:11:471 INFO  ServiceHooks:29 - browser passed through maven null
+2020-11-04 16:11:472 INFO  ServiceHooks:36 - capturing propertites
+2020-11-04 16:11:472 INFO  ServiceHooks:41 - browser passed through Jenkins null
+2020-11-04 16:11:811 INFO  WaitHelper:62 - waiting for element visibilityOf..
+2020-11-04 16:11:481 INFO  WaitHelper:66 - element is visible..
+2020-11-04 16:11:29 INFO  WaitHelper:62 - waiting for element visibilityOf..
+2020-11-04 16:11:93 INFO  WaitHelper:66 - element is visible..
+2020-11-04 16:11:497 INFO  WaitHelper:62 - waiting for element visibilityOf..
+2020-11-04 16:11:735 INFO  WaitHelper:66 - element is visible..
+2020-11-04 16:11:983 INFO  WaitHelper:62 - waiting for element visibilityOf..
+2020-11-04 16:11:740 INFO  WaitHelper:66 - element is visible..
+2020-11-04 16:11:893 INFO  WaitHelper:73 - waiting for element visibilityOf..
+2020-11-04 16:11:511 INFO  WaitHelper:77 - element is visible..
+2020-11-04 16:11:838 INFO  WaitHelper:62 - waiting for element visibilityOf..
+2020-11-04 16:11:930 INFO  WaitHelper:66 - element is visible..
+2020-11-04 16:11:289 INFO  WaitHelper:62 - waiting for element visibilityOf..
+2020-11-04 16:11:935 INFO  WaitHelper:66 - element is visible..
+2020-11-04 16:11:134 INFO  ServiceHooks:70 - Sending message to one person in LinkedIn is pass
