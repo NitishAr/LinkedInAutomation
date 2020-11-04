@@ -1,0 +1,5 @@
+2020-11-04 11:11:417 INFO  ServiceHooks:24 - capturing maven properties
+2020-11-04 11:11:425 INFO  ServiceHooks:29 - browser passed through maven null
+2020-11-04 11:11:425 INFO  ServiceHooks:36 - capturing propertites
+2020-11-04 11:11:425 INFO  ServiceHooks:41 - browser passed through Jenkins null
+2020-11-04 11:11:980 INFO  ServiceHooks:61 - Sending message to one person in LinkedIn is Failed
